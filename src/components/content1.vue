@@ -39,14 +39,18 @@ export default {
                 data:[]
             },
             xAxis: {
-                data: ["","","","","",""]
+                data: ["","","","","",""],
+                show:false
             },
-            yAxis: {},
+            yAxis: {
+                show:false
+            },
             series: [{
                 name: '销量',
                 type: 'bar',
-                data: [15, 20, 36, 10, 10, 20]
-            }]
+                data: [3,4,5,7,4,10,9,5,8,4,3,4]
+            }],
+            pointWidth: 10
         }
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
