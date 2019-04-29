@@ -140,6 +140,8 @@ export default {
 .boxRight{
     padding:0;
     background:#f0f0f0;
+    display:flex;
+    flex-direction: column;
 }
 .left_tit{
     color:#ffffff;
@@ -167,11 +169,12 @@ export default {
     border:none;
 }
 .right_header{
+    display:flex;
     height:60px;
     background:#ffffff;
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow:0 2px 4px rgba(0,0,0,.12),0 0 6px rgba(0,0,0,.04);
 }
 .el-icon-s-operation{
     font-size:18px;
